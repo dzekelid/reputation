@@ -1,0 +1,52 @@
+{
+	"name": "Streadata.io API Gallery - Reputation",
+	"description": "This is a repository of reputation APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/reputation.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://reputation.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Stack Exchange",
+			"x-api-slug": "stack-exchange",
+			"description": "After someone asks a question, members of the community propose answers. Others vote on those answers. Very quickly, the answers with the most votes rise to the top. You dont have to read through a lot of discussion to find the best answer.    Like to...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/253-stack-exchange.jpg",
+			"humanURL": "http://stackexchange.com",
+			"baseURL": "https://api.stackexchange.com//2.2",
+			"tags": "Reputation",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reputation/master/_listings/stack-exchange/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "PeerReach",
+			"x-api-slug": "peerreach",
+			"description": "Join the right conversations with the right people. We find the most relevant accounts for you.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1607-peerreach.jpg",
+			"humanURL": "http://peerreach.com",
+			"baseURL": "https:///",
+			"tags": "Reputation",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reputation/master/_listings/peerreach/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Reputation",
+	"include": [
+		{
+			"name": "Stack Exchange",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reputation/master/_listings/stack-exchange/apis.yaml"
+		},
+		{
+			"name": "PeerReach",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/reputation/master/_listings/peerreach/apis.yaml"
+		}
+	]
+}
